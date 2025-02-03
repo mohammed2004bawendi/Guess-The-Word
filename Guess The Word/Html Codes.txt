@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+
+        <meta charset="utf-8">
+        <title>Guess The Word</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/responsive.css">
+ 
+      
+    </head>
+
+  <body>
+
+          <audio id="coreectaudio" preload="auto"><source src="correct.mp3" type="audio/ogg"><source  src="correct.mp3" type="audio/mpeg"></audio>
+          <audio id="wrongaudio" preload="auto"><source src="wrong.mp3" type="audio/ogg"><source  src="wrong.mp3" type="audio/mpeg"></audio>
+    
+
+    <!--Start The Workplace-->
+
+
+    <div class="themain">
+
+    
+     <header id="header">
+
+
+      
+           <h1>Can you guess the word from definition?</h1>
+
+           <input id="result" type="text" placeholder="Guess the word ..">
+        
+           <p id="place"></p>
+
+           <img src="images/think.png" id="mark">
+ 
+           <p id="emojytalk" class="emojytalk"></p>
+
+           <button id="check" onclick="check()"> Submit</button>
+           
+
+           <div>
+
+                  <button id="reset" onclick="reset()"><img src="images/reset.png"></button>
+
+                  <button id="finish" onclick="finish()"><img src="images/iconfinder_finish_flag_172465.png"></button>
+        
+           
+          </div>
+
+
+        
+     </header>
+
+    <!--End The Workplace-->
+
+    <!--Start Instructions-->
+
+     <div class="main">
+
+     <div class="instructions">
+
+     <h1 id="instructionha">Instructions</h1>
+     <p id="detailsofinstructions">“After you answer, click on reset button to have another defintion to answer it”</p>
+     <p id="detailsofinstructions">“Before you close the game, click on finish button”</p>
+     <p id="detailsofinstructions">“Listen! the answer is from one word, and the answer is always a noun”</p>
+     <img src="images/iconfinder_list_296566.png">
+
+     </div>
+
+     
+     </div>
+
+     </div>
+
+     <!--End Instructions-->
+
+   
+     <!-- Start Footer-->
+  
+     <footer>
+     <p>It's created by <a href="https://www.facebook.com/hamodi.bawendi.1/" target="_blank">Mohammed Bawendi</a>. All rights reserved&reg;</p>
+    </footer>
+
+     <!-- End Footer-->
+
+     
+
+     
+
+      <script src="test.js"></script>
+
+      
+  </body>
+
+</html>
+    

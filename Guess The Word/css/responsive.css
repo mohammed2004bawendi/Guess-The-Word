@@ -1,0 +1,276 @@
+@media (max-width:1107px) {
+
+  
+  .themain {
+
+    display:block;
+    height: 1250px;
+    
+  }
+
+  header {
+
+   margin: auto
+
+  }
+
+
+header #reset img {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 90px;
+  padding: 0 0 0 80px;
+
+}
+
+header #finish {
+
+  margin-left: 410px;
+
+}
+
+.main .instructions {
+
+  margin: 50px auto;
+
+}
+
+}
+
+
+@media (max-width:1050px) {
+
+  
+  .themain {
+
+    display:block;
+    height: 1300px;
+    
+  }
+
+header {
+
+    height: 650px;
+    width: 700px;
+
+}
+
+header #reset img {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 0;
+  padding : 0 0 0 100px
+
+}
+
+header #finish {
+
+  margin-left: 400px;
+
+}
+
+.main .instructions {
+
+  margin: 50px auto;
+
+}
+
+
+}
+
+@media (max-width:1000px) {
+
+
+  .themain {
+
+    display:block;
+
+  }
+
+  header {
+
+    height: 675px;
+    margin: auto
+
+  }
+
+
+  .main .instructions {
+
+    margin: 50px auto
+  
+  }
+
+}
+
+
+ 
+
+@media (max-width:750px) {
+
+  body {
+
+   margin: 0 0 10px 0;
+
+  }
+
+    .themain {
+
+       display: block;
+       height: 1280px;
+       margin: auto;
+
+    }
+
+  header {
+
+     margin: auto;
+     width: 625px;
+
+  }
+ 
+
+  header  div  {
+
+   margin-top: 25px;
+
+  }
+
+
+  header  div #finish  {
+
+    padding: 0;
+    margin: 0;
+    width: 50%;
+  
+  }
+
+  header div #finish:active {
+
+    width: 280px;
+  
+  }
+
+
+  header  div #reset {
+
+    padding: 0;
+    margin: 0;
+    width: 50%;
+
+  }
+
+
+  header  div #finish img {
+
+    
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  
+  }
+
+  header #finish:active{
+
+    transform:translate3d(0, 0, 50px);
+  
+  }
+  
+  header #finish:focus {
+    outline: none;
+  }
+
+
+  header  div #reset img{
+
+    margin: auto;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+
+
+  }
+
+  header #reset img:active{
+
+    animation: reset .1s linear;
+  
+  } 
+  
+  header #reset:focus {
+    outline: none;
+  }
+  
+  @keyframes reset {
+    
+    from{}
+    to{transform:rotate(360deg)}
+    
+  }
+
+  
+
+  .main .instructions {
+
+    margin: 50px auto;
+  
+  }
+
+  
+
+}
+
+@media (max-width:700px) {
+
+
+.themain {
+
+ margin: 0 0 10px 0; 
+ width: 700px;
+
+}
+
+header {
+
+  margin: auto;
+
+}
+
+footer {
+
+ margin: 10px auto;
+
+}
+
+footer p {
+
+  text-align: center;
+  
+
+}
+
+}
+
+@media (min-width:480px) and (max-width:690px) {
+
+  footer {
+
+    width: 700px;
+    margin: 0;
+
+  }
+
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+    footer {
+   
+    width: 700px;
+    margin: 0;
+
+    }
+
+   
+
+}
